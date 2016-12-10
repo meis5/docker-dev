@@ -26,7 +26,7 @@ RUN apt-get install -y \
     build-essential ca-certificates xz-utils apt-utils \
     openssh-server openssh-client wget curl wget git vim zsh rsync \
     clang libicu-dev sqlite3 \
-    python python3 python-dev python3-dev libpython2.7-dev libpython3-dev libxml2
+    python python3 python-dev python3-dev libpython2.7-dev libpython3-dev python-pip python3-pip libxml2
 RUN apt-get install software-properties-common -y
 RUN apt-get update -y
 RUN apt-get upgrade -y
